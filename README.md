@@ -74,7 +74,7 @@ Powered by an **ESP32-C6 Zero** microcontroller and programmed in **C++** for ke
 ![Top Right Frame with keys](/images/Top_Right_Frame_with_keys.png)  
 *Top-right — keycap test fit.*
 
-![3D_Print](3D_Print.png)
+![3D_Print](/images/3D_Print.png)
 *Top-Left — 3D Print.*
 
 ![Top left frame](/images/Top_left_frame.png)  
