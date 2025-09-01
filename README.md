@@ -69,10 +69,13 @@ Powered by an **ESP32-C6 Zero** microcontroller and programmed in **C++** for ke
 *3D model — case design.*
 
 ![Frame Backside](/images/Frame_Backside.png)  
-*Frame — underside and keycaps points.*
+*Top-right — underside and keycaps points.*
 
 ![Top Right Frame with keys](/images/Top_Right_Frame_with_keys.png)  
 *Top-right — keycap test fit.*
+
+![3D_Print](3D_Print.png)
+*Top-Left — 3D Print.*
 
 ![Top left frame](/images/Top_left_frame.png)  
 *Top-left — Plate.*
@@ -98,7 +101,7 @@ This project uses C++. You can use either the Arduino IDE (with ESP32 board inst
 ### Quick start (Arduino IDE)
 
 1. Install ESP32 board support (Espressif) in Arduino IDE.  
-2. Open the provided `firmware/` sketch.  
+2. Open the provided `Firmware/` sketch.  
 3. Edit the `ROW_PINS[]` and `COL_PINS[]` arrays to match your wiring.  
 4. Select the ESP32-C6 Zero board and the correct port.  
 5. Upload.
