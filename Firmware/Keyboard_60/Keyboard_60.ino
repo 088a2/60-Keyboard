@@ -24,6 +24,9 @@ Adafruit_NeoPixel pixels(1, PIN_NEOPIXEL, NEO_GRBW + NEO_KHZ800);
 
 bool capsOn = false;
 
+bool layer1Active = false;
+bool layer2Active = false;
+
 bool keyState[ROWS][COLS] = { false };
 unsigned long lastDebounceTime[ROWS][COLS] = { 0 };
 
@@ -70,16 +73,10 @@ void loop() {
     }
 
     digitalWrite(colPins[c], LOW);
+    updateCapsLED();
   }
 }
 
-
-bool layer1Active = false;
-bool layer2Active = false;
-
-updateCapsLED();
-pressHID();
-releaseHID();
 
 // void CapsLEDTask(bool layer1, bool layer2) {
 //   for (;;) {

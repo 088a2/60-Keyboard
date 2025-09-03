@@ -1,5 +1,18 @@
 #pragma once
 
+#include <USBHIDKeyboard.h>
+#include <USBHIDConsumerControl.h>
+#include <Adafruit_NeoPixel.h>
+#include <string.h>
+
+extern USBHIDKeyboard Keyboard;
+extern USBHIDConsumerControl ConsumerControl;
+extern Adafruit_NeoPixel pixels;
+extern bool layer1Active;
+extern bool layer2Active;
+extern bool capsOn;
+
+
 void pressHID(const char* code) {
   if (!strcmp(code, "MO(1)")) {
     layer1Active = true;
