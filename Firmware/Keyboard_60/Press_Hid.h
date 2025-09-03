@@ -16,7 +16,7 @@ extern bool capsOn;
 void pressHID(const char* code) {
   if (!strcmp(code, "MO(1)")) {
     layer1Active = true;
-    pixels.setPixelColor(0, pixels.Color(0, 0, 255, 0));  // blue
+    pixels.setPixelColor(0, pixels.Color(0, 0, 255, 0));  // blue 
     pixels.show();
     return;
   }

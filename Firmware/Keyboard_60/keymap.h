@@ -3,7 +3,6 @@
 #ifndef ROWS
   #define ROWS 5
 #endif
-
 #ifndef COLS
   #define COLS 13
 #endif

@@ -14,6 +14,7 @@ extern bool capsOn;
 
 // release keys/modifiers
 void releaseHID(const char* code) {
+  
   if (!strcmp(code, "MO(1)")) {
     layer1Active = false;
     if (!capsOn) pixels.setPixelColor(0, pixels.Color(255, 0, 0, 0));

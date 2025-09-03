@@ -33,6 +33,7 @@ unsigned long lastDebounceTime[ROWS][COLS] = { 0 };
 
 void setup() {
   // Serial.begin(115200);
+  
   Keyboard.begin();
   USB.begin();
   ConsumerControl.begin();
