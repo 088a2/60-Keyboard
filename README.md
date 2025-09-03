@@ -19,7 +19,7 @@ Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for ke
 - [Custom 60% Keyboard](#custom-60-keyboard)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
-  - [Bill of Materials](#bill-of-materials)
+  - [Components](#components)
   - [Wiring (high level)](#wiring-high-level)
   - [Assembly](#assembly)
   - [Design \& Gallery](#design--gallery)
@@ -40,7 +40,7 @@ Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for ke
 
 ---
 
-## Bill of Materials
+## Components
 
 - ESP32-S3 Zero (microcontroller)  
 - 63 × Blue mechanical switches
@@ -81,17 +81,14 @@ The complete CAD model of the keyboard is included in the repository:
 
 ---
 
-![Final Keyboard](/images/Final_Keyboard.png)  
-*Final keyboard — fully assembled.*
+![60_Keyboard 1](/images/60_Keyboard.jpeg)
+*60% keyboard*
+
+![60_Keyboard 2](/images/60_Keyboard_2.jpeg)  
+*60% keyboard*
 
 ![3D Render Old](/images/3D_Render_Old.jpeg)  
 *Early render — initial concept.*
-
-![3D Model 4](/images/3D_Model_4.jpeg)  
-*3D model — bottom view.*
-
-![3D Model 3](/images/3D_Model_3.jpeg)  
-*3D model — side view.*
 
 ![3D Model 2](/images/3D_Model_2.png)  
 *3D model — top view.*
@@ -99,29 +96,35 @@ The complete CAD model of the keyboard is included in the repository:
 ![3D Model 1](/images/3D_Model_1.png)  
 *3D model — case design.*
 
-![Frame Backside](/images/Frame_Backside.png)  
-*Top-right — underside and keycaps points.*
+![3D Model 3](/images/3D_Model_3.jpeg)  
+*3D model — side view.*
 
-![Top Right Frame with keys](/images/Top_Right_Frame_with_keys.png)  
-*Top-right — keycap test fit.*
+![3D Model 4](/images/3D_Model_4.jpeg)  
+*3D model — bottom view.*
 
-![3D_Print](/images/3D_Print.png)  
-*Top-Left — 3D Print.*
-
-![Top left frame](/images/Top_left_frame.png)  
-*Top-left — Plate.*
+![Added Keys](/images/Added_Keys.png)  
+*Partial assembly*
 
 ![No keycaps](/images/No_keycaps.png)  
 *Top view without keycaps — switch layout.*
 
-![Handwired circuit](/images/Handwired_circuit.png)  
-*Handwired matrix — bus routing. (Without Diodes)*
-
 ![Handwired circuit](/images/Circuit.jpg)  
 *Handwired matrix circuit*
 
-![Added Keys](/images/Added_Keys.png)  
-*Partial assembly*
+![Handwired circuit](/images/Handwired_circuit.png)  
+*Handwired matrix — bus routing. (Without Diodes)*
+
+![Top Right Frame with keys](/images/Top_Right_Frame_with_keys.png)  
+*Top-right — keycap test fit.*
+
+![Frame Backside](/images/Frame_Backside.png)  
+*Top-right — underside and keycaps points.*
+
+![Top left frame](/images/Top_left_frame.png)  
+*Top-left — Plate.*
+
+![3D_Print](/images/3D_Print.png)  
+*Top-Left — 3D Print.*
 
 ---
 
