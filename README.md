@@ -1,4 +1,4 @@
-# Custom 60% Keyboard
+# DIY 60% Keyboard
 
 ![ESP32-S3](https://img.shields.io/badge/MCU-ESP32--S3-blue?logo=espressif)
 ![Arduino](https://img.shields.io/badge/IDE-Arduino-blue?logo=arduino)
@@ -16,7 +16,7 @@ Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for ke
 
 ## Table of Contents
 
-- [Custom 60% Keyboard](#custom-60-keyboard)
+- [DIY 60% Keyboard](#diy-60-keyboard)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Components](#components)
