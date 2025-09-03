@@ -25,6 +25,9 @@ Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for ke
   - [Wiring (high level)](#wiring-high-level)
   - [Assembly](#assembly)
   - [Design \& Gallery](#design--gallery)
+  - [3D Print Settings](#3d-print-settings)
+    - [Case \& plate](#case--plate)
+    - [Keycaps](#keycaps)
   - [Firmware](#firmware)
     - [Quick start (Arduino IDE)](#quick-start-arduino-ide)
     - [Firmware notes](#firmware-notes)
@@ -137,6 +140,28 @@ The complete CAD model of the keyboard is included in the repository:
 
 ![3D_Print](/images/3D_Print.png)  
 *Top-Left — 3D Print.*
+
+---
+
+## 3D Print Settings
+
+**Model:** The whole model is support free
+**Printer:** any FDM printer with a 0.4 mm nozzle.
+**Material:** PLA (recommended) - PETG or ABS for higher heat resistance
+
+### Case & plate
+
+- Layer height: **0.20 mm**
+- Infill: **15%**
+- Adhesion: none
+- Supports: **none** (model designed support-free)  
+
+### Keycaps
+
+- Layer height: **0.16 mm** (for smoother finish)  
+- Infill: **15%**
+- Adhesion: none
+- Supports: **none** (model designed support-free)  
 
 ---
 
