@@ -3,7 +3,8 @@
 ![ESP32-S3](https://img.shields.io/badge/MCU-ESP32--S3-blue?logo=espressif)
 ![Arduino](https://img.shields.io/badge/IDE-Arduino-blue?logo=arduino)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Fusion 360](https://img.shields.io/badge/CAD-Fusion%20360-orange?logo=autodesk)  
 ![3D Printed](https://img.shields.io/badge/Case-3D%20Printed-purple)
 ![Open Source](https://img.shields.io/badge/Open%20Source-❤-ff69b4)
 
@@ -20,6 +21,7 @@ Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for ke
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Components](#components)
+  - [Tools \& Software](#tools--software)
   - [Wiring (high level)](#wiring-high-level)
   - [Assembly](#assembly)
   - [Design \& Gallery](#design--gallery)
@@ -49,6 +51,16 @@ Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for ke
 - Wires (24-26 AWG preferred for handwiring)  
 - 3D-printed case & plate  
 - Screws, brass threaded inserts, stabilizers
+
+---
+
+## Tools & Software
+
+- **Design & CAD**: Fusion 360
+- **Slicing & Printing**: Orca Slicer & FDM 3D Printer
+- **Firmware Development**: Arduino IDE / PlatformIO  
+- **Programming Language**: C++  
+- **Microcontroller Platform**: ESP32-S3 Zero  
 
 ---
 
