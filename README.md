@@ -146,7 +146,9 @@ The complete CAD model of the keyboard is included in the repository:
 ## 3D Print Settings
 
 **Model:** The whole model is support free
+
 **Printer:** any FDM printer with a 0.4 mm nozzle.
+
 **Material:** PLA (recommended) - PETG or ABS for higher heat resistance
 
 ### Case & plate
