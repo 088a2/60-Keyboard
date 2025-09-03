@@ -131,7 +131,7 @@ This project uses C++. You can use either the Arduino IDE (with ESP32 board inst
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).  
+This project is licensed under the [MIT License](./license).  
 Copyright (c) 2025 Mrinal Kumar
 
 ---
