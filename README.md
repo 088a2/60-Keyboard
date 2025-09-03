@@ -1,15 +1,32 @@
-# Custom 60%-Keyboard
+# Custom 60% Keyboard
 
-![ESP32-S3](https://img.shields.io/badge/MCU-ESP32--S3-blue?logo=espressif)  
-![License: MIT](https://img.shields.io/badge/License-MIT-green)  
+![ESP32-S3](https://img.shields.io/badge/MCU-ESP32--S3-blue?logo=espressif)
+![Arduino](https://img.shields.io/badge/IDE-Arduino-blue?logo=arduino)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
-![Made with C++](https://img.shields.io/badge/Made%20with-C++-orange?logo=c%2b%2b)  
 ![3D Printed](https://img.shields.io/badge/Case-3D%20Printed-purple)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤-ff69b4)
 
 ---
 
 A custom 60% ortholinear mechanical keyboard, built from scratch with a 3D-printed case and handwired matrix.  
 Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for key scanning, debouncing, and USB HID input.
+
+---
+
+## Table of Contents
+
+- [Custom 60% Keyboard](#custom-60-keyboard)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Bill of Materials](#bill-of-materials)
+  - [Wiring (high level)](#wiring-high-level)
+  - [Assembly](#assembly)
+  - [Design \& Gallery](#design--gallery)
+  - [Firmware](#firmware)
+    - [Quick start (Arduino IDE)](#quick-start-arduino-ide)
+    - [Firmware notes](#firmware-notes)
+  - [License](#license)
 
 ---
 
