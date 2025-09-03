@@ -60,7 +60,7 @@ Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for ke
 
 The complete CAD model of the keyboard is included in the repository:  
 
-- [`3d_model/60_keyboard.step`](./3d_model/60_keyboard.step)
+- [`3d_model/60_keyboard.step`](./3D_Model/60_Keyboard.step)
 
 ---
 
