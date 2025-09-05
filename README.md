@@ -24,13 +24,17 @@ Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for ke
   - [Tools \& Software](#tools--software)
   - [Wiring (high level)](#wiring-high-level)
   - [Assembly](#assembly)
+  - [Keyboard Layout](#keyboard-layout)
+    - [Layers](#layers)
   - [Design \& Gallery](#design--gallery)
   - [3D Print Settings](#3d-print-settings)
     - [Case \& plate](#case--plate)
     - [Keycaps](#keycaps)
+  - [Pin Mapping](#pin-mapping)
   - [Firmware](#firmware)
     - [Quick start (Arduino IDE)](#quick-start-arduino-ide)
     - [Firmware notes](#firmware-notes)
+  - [Future Improvements](#future-improvements)
   - [License](#license)
 
 ---
@@ -85,6 +89,24 @@ Powered by an **ESP32-S3 Zero** microcontroller and programmed in **C++** for ke
 - Solder diodes to switch pins first (striped end toward column).
 - Solder row/column buses and label them (R0, R1, ... / C0, C1, ...).  
 - Connect buses to the ESP32-S3 Zero following your planned pin mapping. Secure the MCU and wiring inside the case, then close and mount.
+
+---
+
+## Keyboard Layout
+
+The keyboard follows a 60% ortholinear grid layout with layered functionality.  
+This provides a compact footprint while still maintaining all essential keys.  
+
+![Keyboard_Layout](/images/Keyboard_Layout.png)  
+*Keyboard layout (visualized using [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/#/)).*
+
+### Layers
+
+- **Layer 1 (Default):** Standard typing layer with alphanumeric keys, modifiers, and space.  
+- **Layer 2 (MO):** Media controls (volume, play/pause, next/previous).  
+- **Layer 3 (MO):** Function keys (F1–F12) and system shortcuts.  
+
+The editable layout file is included here: [`Keymap\60_keyboard.json`](./Keymap\60_keyboard.json)
 
 ---
 
@@ -167,6 +189,16 @@ The complete CAD model of the keyboard is included in the repository:
 
 ---
 
+## Pin Mapping
+
+| Function        | GPIOs                                 |
+|-----------------|---------------------------------------|
+| Rows (0 → 4)    | 45, 42, 41, 17, 40                    |
+| Cols (0 → 12)   | 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 |
+| NeoPixel        | 21                                    |
+
+---
+
 ## Firmware
 
 This project uses C++. You can use either the Arduino IDE (with ESP32 board installed) or PlatformIO.
@@ -185,6 +217,16 @@ This project uses C++. You can use either the Arduino IDE (with ESP32 board inst
 - Use a matrix scanning algorithm that drives columns (or rows) actively and reads inputs on the other side.  
 - Configure USB HID descriptors correctly for keyboard behavior.  
 - Keep serial debugging optional (enable via a compile flag) so HID is unaffected.
+
+---
+
+## Future Improvements
+
+While the current build is fully functional, there can be upgrades in future iterations:
+
+- **Per-Key RGB lighting**: NeoPixel/WS2812B LEDs for customizable effects.  
+- **Wireless support**: use the ESP32-S3’s built-in Bluetooth for Bluetooth HID, making the keyboard usable without USB.  
+- **Custom PCB**: replace handwiring with a dedicated PCB for cleaner routing, easier assembly, and better reliability.  
 
 ---
 

@@ -1,0 +1,131 @@
+[
+  {
+    "backcolor": "#70cd81",
+    "name": "60% Keyboard",
+    "author": "Mrinal Kumar",
+    "radii": "13px",
+    "a": 7,
+    "pcb": false,
+    "css": ""
+  },
+  [
+    "~\nEsc\n\n\n\n\n`",
+    "Mute\n1\n\nF1\n\n\n!",
+    "Vol-\n2\n\nF2\n\n\n@",
+    "Vol+\n3\n\nF3\n\n\n#",
+    "Prev\n4\n\nF4\n\n\n$",
+    "Play\n5\n\nF5\n\n\n%",
+    "Next\n6\n\nF6\n\n\n^",
+    "\n7\n\nF7\n\n\n&",
+    "\n8\n\nF8\n\n\n*",
+    "Search\n9\n\nF9\n\n\n(",
+    "Bright-\n0\n\nF10\n\n\n)",
+    "Bright+\n-\n\nF11\n\n\n_",
+    "⌦\n⌫\n\nF12"
+  ],
+  [
+    {
+      "a": 7
+    },
+    "Tab",
+    "Q",
+    {
+      "c": "#70cd81",
+      "a": 5
+    },
+    "↑\nW",
+    {
+      "c": "#cccccc",
+      "a": 7
+    },
+    "E",
+    "R",
+    "T",
+    "Y",
+    "U",
+    "I",
+    "O",
+    "P",
+    {
+      "a": 5
+    },
+    "_\n-",
+    "+\n="
+  ],
+  [
+    {
+      "a": 7
+    },
+    "Caps",
+    {
+      "c": "#70cd81",
+      "a": 5
+    },
+    "←\nA",
+    "↓\nS",
+    "→\nD",
+    {
+      "c": "#cccccc",
+      "a": 7
+    },
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "L",
+    {
+      "a": 5
+    },
+    ":\n;",
+    "\"\n'",
+    {
+      "a": 7
+    },
+    "Enter"
+  ],
+  [
+    "Shift",
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B",
+    "N",
+    "M",
+    {
+      "a": 5
+    },
+    "<\n,",
+    ">\n.",
+    "?\n/",
+    "{\n[",
+    "}\n]"
+  ],
+  [
+    {
+      "a": 7
+    },
+    "Ctrl",
+    "MO(1)",
+    "Win",
+    "Alt",
+    {
+      "c": "#70cd81",
+      "w": 3
+    },
+    "Space",
+    {
+      "c": "#cccccc"
+    },
+    "RAlt",
+    "RCtrl",
+    "MO(2)",
+    "PgUp",
+    "PgDn",
+    {
+      "a": 5
+    },
+    "End\nHome"
+  ]
+]
